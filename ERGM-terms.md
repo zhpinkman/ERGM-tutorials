@@ -29,3 +29,9 @@ This file provides information about some more often used ERGM terms.
   * __Example:__
     * In a patent citation network, we want to determine if being in a specific industry affects tie formation.
   * __Usage:__ `nodefactor(attr)`
+
+* __nodeifactor/nodeofactor__
+  * __Description:__ Same as nodefactor but counts are calculeted based on in-edges/out-edges.
+  * __Example:__
+   * In the patent citation network, we want to know if patents industry of cited/citing affect tie formation.
+  * __Usage:__ `nodeifactor(attr)/nodeofactor(attr)`
