@@ -35,3 +35,6 @@ This file provides information about some more often used ERGM terms.
   * __Example:__
    * In the patent citation network, we want to know if patents industry of cited/citing affect tie formation.
   * __Usage:__ `nodeifactor(attr)/nodeofactor(attr)`
+
+
+Terms to add: triangle, mutual, edgecov, gwesp, degree, absdiff, nodematch, nodemix, diff, isolates
