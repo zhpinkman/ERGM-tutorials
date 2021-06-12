@@ -44,5 +44,11 @@ This file provides information about some more often used ERGM terms.
    * In the patent citation network, we want to know if patents industry of cited/citing affect tie formation.
   * __Usage:__ `nodeifactor(attr)/nodeofactor(attr)`
 
+* __nodematch__
+  * __Description:__ This term captures homophily on categorical attributes.
+  * __Example:__
+    * In a friendship network, we want to measure whether people have a tendency towards same-gender friendships.
+  * __Usage:__ `nodematch(attr)`
 
-Terms to add: triangle, mutual, edgecov, gwesp, degree, absdiff, nodematch, nodemix, diff, isolates
+
+Terms to add: triangle, edgecov, gwesp, degree, absdiff, nodemix, diff, isolates
