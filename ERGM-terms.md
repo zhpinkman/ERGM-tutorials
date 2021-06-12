@@ -50,5 +50,12 @@ This file provides information about some more often used ERGM terms.
     * In a friendship network, we want to measure whether people have a tendency towards same-gender friendships.
   * __Usage:__ `nodematch(attr)`
 
+* __absdiff__
+  * __Description:__ This term captures absolute differences. It's somehow a homophily term for continuous variables.
+  * __Important Notes:__
+    * the `pow` argument can be used to specify the power of the absolute difference; default is one.
+  * __Example:__
+    * In a friendship network, we want to know whether having a small age difference affects friendship formation.
+  * __Usage:__ `absdiff(attr, pow=1)`
 
-Terms to add: triangle, edgecov, gwesp, degree, absdiff, nodemix, diff, isolates
+Terms to add: triangle, edgecov, gwesp, degree, nodemix, diff, isolates
