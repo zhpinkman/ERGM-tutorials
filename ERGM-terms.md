@@ -4,8 +4,16 @@ This file provides information about some more often used ERGM terms.
   * __Description:__ This term adds a network measure equal to the number of edges. It controls for the density of our model.
   * __Usage:__ `edges`
 
+* __mutual__
+  * __Description:__ It adds a network statistic equal to the number of pairs i and j for which (i,j) and (j,i) both exist.
+  * __Important Notes:__
+    * It can only be used with directed networks.
+  * __Example:__
+    *  In a citation network we want to check if citing and cited relations tend to occur at the same time.
+  * __Usage:__ `mutual`
+
 * __nodecov__
-  * __Description:__ This term is useful when we want to knpw whether continuous node attributes affect tie formation.  
+  * __Description:__ This term is useful when we want to know whether continuous node attributes affect tie formation.  
     This term adds sum of attr(i) + attr(j) to the network statistics for each edge (i, j).
   * __Important Notes:__
     * This term can be used for both directed and undirected networks, the value is equal to nodeocov + nodeicov for directed networks.
