@@ -58,4 +58,4 @@ This file provides information about some more often used ERGM terms.
     * In a friendship network, we want to know whether having a small age difference affects friendship formation.
   * __Usage:__ `absdiff(attr, pow=1)`
 
-Terms to add: triangle, edgecov, gwesp, degree, nodemix, diff, isolates
+Terms to add: triangle, edgecov, gwesp, degree, nodemix, diff, isolates, altkstar
